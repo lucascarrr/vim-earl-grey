@@ -1,21 +1,21 @@
-set background=light
-let g:colors_name="vim-earl-grey-converted"
+set background=dark
+let g:colors_name="vim-earl-grey-night"
 
-" Converted theme with new color palette
+" Night mode theme
 highlight Error guifg=#bd100d guibg=NONE guisp=NONE gui=NONE 
-highlight Type guifg=#45363b guibg=NONE guisp=NONE gui=NONE 
-highlight Function guifg=#45363b guibg=NONE guisp=NONE gui=NONE 
+highlight Type guifg=#958b83 guibg=NONE guisp=NONE gui=NONE 
+highlight Function guifg=#958b83 guibg=NONE guisp=NONE gui=NONE 
 highlight PreProc guifg=#e9a448 guibg=NONE guisp=NONE gui=NONE 
 highlight Statement guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
-highlight NormalFloat guifg=#45363b guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight NormalFloat guifg=#958b83 guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight DiffDelete guifg=#bd100d guibg=NONE guisp=NONE gui=NONE 
 highlight DiffAdd guifg=#858062 guibg=NONE guisp=NONE gui=NONE 
 highlight DiffChange guifg=#e9a448 guibg=NONE guisp=NONE gui=NONE 
-highlight Normal guifg=#45363b guibg=#d4ccb9 guisp=NONE gui=NONE 
-highlight Visual guifg=NONE guibg=#958b83 guisp=NONE gui=NONE 
+highlight Normal guifg=#958b83 guibg=#20111a guisp=NONE gui=NONE 
+highlight Visual guifg=NONE guibg=#45363b guisp=NONE gui=NONE 
 highlight LineNr guifg=#5e5252 guibg=NONE guisp=NONE gui=NONE 
 highlight Keyword guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
-highlight Operator guifg=#45363b guibg=NONE guisp=NONE gui=NONE 
+highlight Operator guifg=#958b83 guibg=NONE guisp=NONE gui=NONE 
 highlight Delimiter guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
 highlight Directory guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
 highlight Number guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
@@ -23,18 +23,18 @@ highlight String guifg=#858062 guibg=NONE guisp=NONE gui=NONE
 highlight Constant guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
 highlight Conditional guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
 highlight Repeat guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
-highlight MatchParen guifg=NONE guibg=#958b83 guisp=NONE gui=underline 
+highlight MatchParen guifg=NONE guibg=#45363b guisp=NONE gui=underline 
 highlight WarningMsg guifg=#e9a448 guibg=NONE guisp=NONE gui=NONE 
-highlight ColorColumn guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight ColorColumn guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE 
-highlight CursorLineNr guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight CursorLineNr guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight Bold guifg=NONE guibg=NONE guisp=NONE gui=bold 
 highlight Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline 
 highlight Italic guifg=NONE guibg=NONE guisp=NONE gui=italic 
-highlight LspReferenceText guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
-highlight Pmenu guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
-highlight PmenuSel guifg=NONE guibg=#958b83 guisp=NONE gui=NONE 
-highlight Todo guifg=#416978 guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight LspReferenceText guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
+highlight Pmenu guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
+highlight PmenuSel guifg=NONE guibg=#45363b guisp=NONE gui=NONE 
+highlight Todo guifg=#416978 guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight SpellBad guifg=#bd100d guibg=NONE guisp=NONE gui=underline 
 highlight SpellCap guifg=#416978 guibg=NONE guisp=NONE gui=underline 
 highlight SpellRare guifg=#e9a448 guibg=NONE guisp=NONE gui=underline 
@@ -44,23 +44,23 @@ highlight DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=#e9a448 gui=underl
 highlight DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=#416978 gui=underline 
 highlight DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=#96522b gui=underline 
 highlight ErrorMsg guifg=#bd100d guibg=NONE guisp=NONE gui=NONE 
-highlight LspReferenceRead guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
-highlight LspReferenceWrite guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight LspReferenceRead guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
+highlight LspReferenceWrite guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight DiagnosticInfo guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
 highlight DiagnosticHint guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
 highlight Comment guifg=#5e5252 guibg=NONE guisp=NONE gui=NONE 
 highlight DiagnosticWarn guifg=#e9a448 guibg=NONE guisp=NONE gui=NONE 
 highlight SpecialKey guifg=#98999c guibg=NONE guisp=NONE gui=NONE 
-highlight CursorLine guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
-highlight Cursor guifg=#d4ccb9 guibg=#45363b guisp=NONE gui=NONE 
-highlight NormalNB guifg=NONE guibg=#c4bcaa guisp=NONE gui=NONE 
+highlight CursorLine guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
+highlight Cursor guifg=#20111a guibg=#958b83 guisp=NONE gui=NONE 
+highlight NormalNB guifg=NONE guibg=#2a1d24 guisp=NONE gui=NONE 
 highlight htmlH2 guifg=#416978 guibg=NONE guisp=NONE gui=bold 
 highlight Identifier guifg=#416978 guibg=NONE guisp=NONE gui=NONE 
 highlight Title guifg=#416978 guibg=NONE guisp=NONE gui=bold 
 highlight Special guifg=#96522b guibg=NONE guisp=NONE gui=NONE 
 highlight EndOfBuffer guifg=#5e5252 guibg=NONE guisp=NONE gui=NONE 
-highlight VertSplit guifg=#45363b guibg=NONE guisp=NONE gui=NONE 
-highlight Search guifg=#d4ccb9 guibg=#96522b guisp=NONE gui=NONE 
-highlight IncSearch guifg=#d4ccb9 guibg=#416978 guisp=NONE gui=NONE 
+highlight VertSplit guifg=#958b83 guibg=NONE guisp=NONE gui=NONE 
+highlight Search guifg=#20111a guibg=#96522b guisp=NONE gui=NONE 
+highlight IncSearch guifg=#20111a guibg=#416978 guisp=NONE gui=NONE 
 highlight NonText guifg=#98999c guibg=NONE guisp=NONE gui=NONE 
 highlight DiagnosticError guifg=#bd100d guibg=NONE guisp=NONE gui=NONE
